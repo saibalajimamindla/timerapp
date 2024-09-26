@@ -20,6 +20,10 @@ code {
   height: 100vh;
   margin: 0;
 }
+
+.title{
+  color: white;
+}
 .timerBody{
   background-color: black;
   height: 60%;
@@ -41,6 +45,11 @@ code {
   align-items: center;
   justify-content: center;
 
+}
+
+.buttons{
+  overflow: auto;
+  margin: 10px;
 }
 .button{
   width: 100%;

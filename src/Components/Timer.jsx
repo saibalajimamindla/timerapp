@@ -40,7 +40,7 @@ function Timer() {
   return (
     <div className="background">
       <div className="timerBody">
-        <h1>Timmer</h1>
+        <h1 className="title">Timmer</h1>
         <div className="time">{formatTime(time)}</div>
         <div className="buttons">
           <button className="button" onClick={handleStart}>
